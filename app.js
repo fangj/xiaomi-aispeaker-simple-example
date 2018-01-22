@@ -4,6 +4,7 @@ var app = express();
 const https = require('https');
 const fs = require('fs');
 
+app.use(bodyParser.json());
 app.use("/",require("./myroute"));
 
 // catch 404 and forward to error handler
