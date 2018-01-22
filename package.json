@@ -4,7 +4,7 @@
   "description": "AI音箱简单示例",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./app.js"
   },
   "author": "Fang Jian",
   "license": "ISC",

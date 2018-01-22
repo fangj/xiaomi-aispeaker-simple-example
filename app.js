@@ -31,7 +31,7 @@ const options = {
 
 const httpsServer = https.createServer(options, app);
 
-httpsServer.listen(8443,function(){
+httpsServer.listen(443,function(){
   var host = httpsServer.address().address;
   var port = httpsServer.address().port;
   console.log('Example app listening at http://%s:%s', host, port);
