@@ -1,6 +1,4 @@
-# xiaomi-aispeaker-simple-example
-小米AI音箱简单示例
-
+# 小米AI音箱简单示例(nodejs)
 
 为小米AI音箱开发技能的简单示例
 
